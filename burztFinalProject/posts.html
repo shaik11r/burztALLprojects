@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FB Clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" href="posts.css" />
+  </head>
+  <body>
+    <div id="navbar-container" class="box">
+      <a href="posts.html">Posts</a>
+      <a href="friends.html">Friends</a>
+      <a href="index.html">Sign out</a>
+    </div>
+    <div id="create-post-container">
+      <input class="input" id="post-title" placeholder="Post Title" />
+      <input class="input" id="post-image" placeholder="Image Link" />
+      <button class="button is-primary" id="post-button">Create Post</button>
+    </div>
+    <div class="all-post-container">
+      <div></div>
+      <div>
+        <div class="box post-container">
+          <div class="profile-image-name">
+            <img
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+              alt="image"
+              class="profile-image" />
+            <p class="profile-name">Elizabeth Smith</p>
+          </div>
+          <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type specimen book
+          </p>
+          <img
+            src="https://images.unsplash.com/photo-1695192665858-09995afefef0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
+            alt="postimage"
+            class="post-image" />
+          <p class="likes">10 likes</p>
+          <button class="button is-danger likes">Like</button>
+        </div>
+      </div>
+      <div></div>
+    </div>
+  </body>
+</html>

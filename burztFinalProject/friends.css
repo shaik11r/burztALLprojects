@@ -1,0 +1,26 @@
+#navbar-container {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  place-items: center;
+  margin-bottom: 2rem;
+}
+#create-post-container {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  margin-bottom: 2rem;
+}
+.all-post-container {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  margin-bottom: 2rem;
+}
+.profile-image {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.profile-image-name {
+  display: grid;
+  grid-template-columns: 5rem 70%;
+  margin-bottom: 1rem;
+}

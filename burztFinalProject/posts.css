@@ -1,0 +1,44 @@
+#navbar-container {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  place-items: center;
+  margin-bottom: 2rem;
+}
+#create-post-container {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  margin-bottom: 2rem;
+}
+#post-title {
+  margin-left: 1rem;
+}
+#post-image {
+  margin-left: 2rem;
+}
+#post-button {
+  margin-left: 3rem;
+}
+.all-post-container {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  margin-bottom: 2rem;
+}
+.profile-image {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.profile-image-name {
+  display: grid;
+  grid-template-columns: 5rem 70%;
+  margin-bottom: 1rem;
+}
+.post-image {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+.likes {
+  margin-top: 1rem;
+}

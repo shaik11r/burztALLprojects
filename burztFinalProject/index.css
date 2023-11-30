@@ -1,0 +1,12 @@
+#signin-navbar {
+  display: grid;
+  place-items: center;
+}
+#signin-page {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  text-align: center;
+}
+.marginbottom {
+  margin-bottom: 1rem;
+}
