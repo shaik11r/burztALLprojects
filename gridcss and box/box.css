@@ -1,0 +1,27 @@
+.red-border {
+  border: 0.1rem solid red;
+}
+.one {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: 5rem 30%;
+}
+.two {
+  height: 5rem;
+  margin-right: 1rem;
+}
+.three {
+  height: 2rem;
+  margin-top: 1rem;
+}
+.four {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 1rem;
+}
